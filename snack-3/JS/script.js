@@ -61,7 +61,7 @@ for(let x=0; x<squadre.length; x++){
     const{name, punti, falli}=squadre[x];
     if(squadraN===squadre[x]){
         document.getElementById('output').innerHTML = `
-        <ul style="background:yellow">
+        <ul style="background-color:yellow">
           <li>${name}</li>
           <li>${punti}</li>
           <li>${falli}</li>
