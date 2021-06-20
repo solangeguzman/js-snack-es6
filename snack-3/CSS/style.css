@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+}
+
+ul li{
+    border: 2px solid black;
+    flex-basis: calc(100%/3);
+}
+
+.table ul:first-child{
+    text-align: center;
+    margin-top: 20px;
+    background-color: bisque;
+    background-color: ;
+}
